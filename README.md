@@ -84,7 +84,7 @@ pytest
 
 ## 🖼️ Screenshots
 
-![App Screenshot](flaskr-app.png)
+![App Screenshot](Screenshot.png)
 
 ---
 
