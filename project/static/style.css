@@ -1,74 +1,84 @@
 body {
     font-family: sans-serif;
     background: #eee;
-  }
+    color: black; /* default text color to black */
+}
 
-  a,
-  h1,
-  h2 {
+a,
+h1,
+h2 {
     color: #377ba8;
-  }
+}
 
-  h1,
-  h2 {
+h1,
+h2 {
     font-family: "Georgia", serif;
     margin: 0;
-  }
+    color: black; /* ensure headings are black */
+}
 
-  h1 {
-    border-bottom: 2px solid #eee;
-  }
+h1 {
+    border-bottom: 2px solid #110d0d;
+}
 
-  h2 {
+h2 {
     font-size: 1.2em;
-  }
+}
 
-  .page {
+.page {
     margin: 2em auto;
     width: 35em;
     border: 5px solid #ccc;
     padding: 0.8em;
     background: white;
-  }
+    color: black; /* text inside page should be black */
+}
 
-  .entries {
+.entries {
     list-style: none;
     margin: 0;
     padding: 0;
-  }
+    color: black; /* list text black */
+}
 
-  .entries li {
+.entries li {
     margin: 0.8em 1.2em;
-  }
+}
 
-  .entries li h2 {
+.entries li h2 {
     margin-left: -1em;
-  }
+    color: black;
+}
 
-  .add-entry {
+.add-entry {
     font-size: 0.9em;
     border-bottom: 1px solid #ccc;
-  }
+    color: black;
+}
 
-  .add-entry dl {
+.add-entry dl {
     font-weight: bold;
-  }
+    color: black;
+}
 
-  .metanav {
+.metanav {
     text-align: right;
     font-size: 0.8em;
     padding: 0.3em;
     margin-bottom: 1em;
     background: #fafafa;
-  }
+    color: black;
+}
 
-  .flash {
+.flash {
     background: #cee5f5;
     padding: 0.5em;
     border: 1px solid #aacbe2;
-  }
+    color: black;
+}
 
-  .error {
+.error {
     background: #f0d6d6;
     padding: 0.5em;
-  }
+    color: black;
+}
